@@ -40,7 +40,6 @@ body {
   background-color: var(--color-bright-orange);
   border-radius: 8px;
   position: relative;
-  height: calc(auto +20px);
   bottom: -20px;
 }
 
@@ -48,7 +47,6 @@ body {
   background-color: var(--color-dark-cyan);
   border-radius: 8px;
   position: relative;
-  height: calc(auto +10px);
   bottom: -10px;
 }
 
@@ -216,12 +214,10 @@ img {
   }
 
   .cyan {
-    width: calc(auto + 5px);
     right: 5px;
   }
 
   .dark-cyan {
-    width: calc(auto + 10px);
     right: 10px;
   }
 
