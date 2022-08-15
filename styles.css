@@ -198,7 +198,7 @@ img {
   .container {
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: fixed;
     width: 920px;
     top: 50%;
     left: 50%;
@@ -237,27 +237,6 @@ img {
 @media screen and (max-height: 667px) {
   .container {
     transform: translate(-50%, -13%);
-    /* negative values move to the a) left and b)up */
-  }
-}
-
-@media screen and (min-height: 854px) {
-  .container {
-    transform: translate(-50%, -35%);
-    /* negative values move to the a) left and b)up */
-  }
-}
-
-@media screen and (min-height: 1024px) {
-  .container {
-    transform: translate(-50%, -40%);
-    /* negative values move to the a) left and b)up */
-  }
-}
-
-@media screen and (min-height: 1200px) {
-  .container {
-    transform: translate(-50%, -50%);
     /* negative values move to the a) left and b)up */
   }
 }
