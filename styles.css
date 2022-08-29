@@ -25,7 +25,7 @@ body {
 }
 
 /*Styling*/
-.container {
+.container__components {
   display: flex;
   flex-direction: column;
   width: 327px;
@@ -89,9 +89,9 @@ img {
   margin-top: 25px;
 }
 
-.learn-orange,
-.learn-cyan,
-.learn-dark-cyan {
+.orange__learn,
+.cyan__learn,
+.dark-cyan__learn {
   border-radius: 20px;
   background-color: var(--color-light-gray);
   width: 9.125rem;
@@ -106,78 +106,78 @@ img {
   margin-bottom: 48px;
 }
 
-.learn-orange {
+.orange__learn {
   color: var(--color-bright-orange);
 }
 
-.orange-button {
+.orange__button {
   position: relative;
   top: 0.7rem;
 }
 
-.learn-orange:hover {
+.orange__learn:hover {
   background-color: var(--color-light-orange);
   border: medium solid white;
   cursor: pointer;
   color: white;
 }
 
-.orange-button:hover {
+.orange__button:hover {
   position: relative;
   top: 0.57rem;
   font-size: 15px;
 }
 
-.learn-cyan {
+.cyan__learn {
   color: var(--color-dark-cyan);
 }
 
-.cyan-button {
+.cyan__button {
   position: relative;
   top: 0.7rem;
 }
 
-.learn-cyan:hover {
+.cyan__learn:hover {
   background-color: var(--color-dark-cyan);
   border: medium solid white;
   cursor: pointer;
   color: white;
 }
 
-.cyan-button:hover {
+.cyan__button:hover {
   position: relative;
   top: 0.57rem;
   font-size: 15px;
 }
 
-.learn-dark-cyan {
+.dark-cyan__learn {
   color: var(--color-very-dark-cyan);
 }
 
-.dark-cyan-button {
+.dark-cyan__button {
   position: relative;
   top: 0.7rem;
 }
 
-.learn-dark-cyan:hover {
+.dark-cyan__learn:hover {
   background-color: var(--color-light-orange);
   border: medium solid white;
   cursor: pointer;
   color: white;
 }
 
-.dark-cyan-button:hover {
+.dark-cyan__button:hover {
   position: relative;
   top: 0.57rem;
   font-size: 15px;
 }
 
-#page-container {
+#container__page {
   position: relative;
   min-height: 100vh;
 }
 
-#content-wrap {
+#container__content {
   padding-bottom: 2.5rem; /* Footer height */
 }
 
@@ -188,6 +188,7 @@ img {
   bottom: -100%;
   width: 100%;
   height: 2.5rem; /* Footer height */
+  font-weight: bold;
 }
 
 .attribution a {
@@ -195,7 +196,7 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
-  .container {
+  .container__components {
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -235,7 +236,7 @@ img {
 }
 
 @media screen and (max-height: 667px) {
-  .container {
+  .container__components {
     transform: translate(-50%, -13%);
     /* negative values move to the a) left and b)up */
   }
